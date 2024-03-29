@@ -13,7 +13,7 @@ import map from '@/app/assets/map.svg';
 export default function Footer() {
 	return (
 		<footer className="bg-gray-1">
-			<div className="mx-auto flex max-w-screen-xxl flex-col px-12 py-14 lg:flex-row">
+			<div className="mx-auto flex max-w-screen-xxl flex-col px-4 py-14 lg:flex-row">
 				<div className="flex flex-1 flex-col gap-y-4 p-4">
 					<div className="flex items-center">
 						<Image
