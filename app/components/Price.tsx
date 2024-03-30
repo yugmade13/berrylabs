@@ -24,7 +24,7 @@ const Price = (props: FeatureProps) => {
 	return (
 		<div
 			className={clsx(
-				'relative rounded-lg border text-center lg:border-0',
+				'relative rounded-lg text-center',
 				isRecommended && 'border-2 border-purple-1',
 				id % 2 !== 0 ? 'bg-gray-1' : 'bg-white',
 			)}>
@@ -44,7 +44,7 @@ const Price = (props: FeatureProps) => {
 				<p className="text-2xl lg:text-xl leading-[25.2px] text-black-2 mt-2">
 					{coreFeatures.category}
 				</p>
-				<p className="mb-3 text-lg lg:text-md leading-[16.38px] text-gray-2">
+				<p className="mb-3 text-lg lg:text-base leading-[16.38px] text-gray-2">
 					{coreFeatures.description}
 				</p>
 				<h1 className="leading=[39.88px] text-3xl lg:text-[34px] font-bold text-black-1">
@@ -56,7 +56,7 @@ const Price = (props: FeatureProps) => {
 					'flex w-full justify-center gap-x-1 py-6',
 					id % 2 !== 0 ? 'bg-white' : 'bg-gray-1',
 				)}>
-				<p className="text-lg lg:text-md leading-[16.38px] text-black-2">
+				<p className="text-lg lg:text-base leading-[16.38px] text-black-2">
 					{fileIncluded} Files
 				</p>
 				<Image
@@ -68,7 +68,7 @@ const Price = (props: FeatureProps) => {
 				/>
 			</div>
 			<ul className="mb-12 flex flex-col items-center gap-y-5 py-4">
-				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-base leading-[16.38px] text-black-2">
 					{freeGenerations}
 					<Image
 						src={question}
@@ -78,7 +78,7 @@ const Price = (props: FeatureProps) => {
 						style={{ cursor: 'pointer' }}
 					/>
 				</li>
-				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-base leading-[16.38px] text-black-2">
 					{filesPerUpload}
 					<Image
 						src={question}
@@ -88,7 +88,7 @@ const Price = (props: FeatureProps) => {
 						style={{ cursor: 'pointer' }}
 					/>
 				</li>
-				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-base leading-[16.38px] text-black-2">
 					{pagesPerFile}
 					<Image
 						src={question}
@@ -98,7 +98,7 @@ const Price = (props: FeatureProps) => {
 						style={{ cursor: 'pointer' }}
 					/>
 				</li>
-				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-base leading-[16.38px] text-black-2">
 					{fileSizeLimit} MB
 					<Image
 						src={question}
