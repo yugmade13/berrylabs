@@ -41,13 +41,13 @@ const Price = (props: FeatureProps) => {
 				</div>
 			)}
 			<header className="flex flex-col gap-y-4 py-4">
-				<p className="text-xl leading-[25.2px] text-black-2">
+				<p className="text-2xl lg:text-xl leading-[25.2px] text-black-2 mt-2">
 					{coreFeatures.category}
 				</p>
-				<p className="mb-3 text-[13px] leading-[16.38px] text-gray-2">
+				<p className="mb-3 text-lg lg:text-md leading-[16.38px] text-gray-2">
 					{coreFeatures.description}
 				</p>
-				<h1 className="leading=[39.88px] text-[34px] font-bold text-black-1">
+				<h1 className="leading=[39.88px] text-3xl lg:text-[34px] font-bold text-black-1">
 					IDR {coreFeatures.price}
 				</h1>
 			</header>
@@ -56,55 +56,55 @@ const Price = (props: FeatureProps) => {
 					'flex w-full justify-center gap-x-1 py-6',
 					id % 2 !== 0 ? 'bg-white' : 'bg-gray-1',
 				)}>
-				<p className="text-[13px] leading-[16.38px] text-black-2">
+				<p className="text-lg lg:text-md leading-[16.38px] text-black-2">
 					{fileIncluded} Files
 				</p>
 				<Image
 					src={question}
 					alt="question"
-					width={8}
-					height={8}
+					width={12}
+					height={12}
 					style={{ cursor: 'pointer' }}
 				/>
 			</div>
-			<ul className="mb-12 flex flex-col items-center gap-y-3 py-4">
-				<li className="flex justify-center gap-x-1 text-[13px] leading-[16.38px] text-black-2">
+			<ul className="mb-12 flex flex-col items-center gap-y-5 py-4">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
 					{freeGenerations}
 					<Image
 						src={question}
 						alt="question"
-						width={8}
-						height={8}
+						width={12}
+						height={12}
 						style={{ cursor: 'pointer' }}
 					/>
 				</li>
-				<li className="flex justify-center gap-x-1 text-[13px] leading-[16.38px] text-black-2">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
 					{filesPerUpload}
 					<Image
 						src={question}
 						alt="question"
-						width={8}
-						height={8}
+						width={12}
+						height={12}
 						style={{ cursor: 'pointer' }}
 					/>
 				</li>
-				<li className="flex justify-center gap-x-1 text-[13px] leading-[16.38px] text-black-2">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
 					{pagesPerFile}
 					<Image
 						src={question}
 						alt="question"
-						width={8}
-						height={8}
+						width={12}
+						height={12}
 						style={{ cursor: 'pointer' }}
 					/>
 				</li>
-				<li className="flex justify-center gap-x-1 text-[13px] leading-[16.38px] text-black-2">
+				<li className="flex justify-center gap-x-1 text-lg lg:text-md leading-[16.38px] text-black-2">
 					{fileSizeLimit} MB
 					<Image
 						src={question}
 						alt="question"
-						width={8}
-						height={8}
+						width={12}
+						height={12}
 						style={{ cursor: 'pointer' }}
 					/>
 				</li>
@@ -113,8 +113,8 @@ const Price = (props: FeatureProps) => {
 						<Image
 							src={check}
 							alt="images"
-							width={16}
-							height={16}
+							width={24}
+							height={24}
 						/>
 					) : (
 						'🙏🏻'
@@ -125,8 +125,8 @@ const Price = (props: FeatureProps) => {
 						<Image
 							src={check}
 							alt="images"
-							width={16}
-							height={16}
+							width={24}
+							height={24}
 						/>
 					) : (
 						'🙏🏻'
@@ -137,8 +137,8 @@ const Price = (props: FeatureProps) => {
 						<Image
 							src={check}
 							alt="images"
-							width={16}
-							height={16}
+							width={24}
+							height={24}
 						/>
 					) : (
 						'🙏🏻'
