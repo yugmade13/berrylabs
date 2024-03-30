@@ -4,7 +4,7 @@ import Price from './Price';
 
 export default function Features() {
 	return (
-		<section className="mx-auto my-12 max-w-screen-xxl px-4">
+		<section className="mx-auto py-12 max-w-screen-xxl px-4">
 			<div className="mb-32 text-center">
 				<h1 className="mb-4 text-[40px] font-bold leading-[48px]">
 					Berrylabs Pricing
