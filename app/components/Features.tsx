@@ -14,11 +14,11 @@ export default function Features() {
 					for Every Business.
 				</Paragraph>
 			</div>
-			<div className="flex justify-between text-[13px] leading-[16.38px]">
+			<div className="flex justify-between text-base leading-[16.38px]">
 				<div className="hidden min-w-[200px] xl:block">
-					<div className="mt-[117px] font-semibold">Core Features</div>
-					<div className="py-6 ">Files Included</div>
-					<ul className="mb-12 flex flex-col gap-y-3 py-4">
+					<div className="mt-[155px] font-semibold">Core Features</div>
+					<div className="py-7 leading-[16.38px]">Files Included</div>
+					<ul className="mb-12 flex flex-col gap-y-7 py-4">
 						<li>Free Generations</li>
 						<li>Files per Upload</li>
 						<li>Pages per File</li>
